@@ -18,7 +18,7 @@ const Grandapa = () => {
             <p>Has Money: {money}</p>
 
             <MoneyContext.Provider value={[money, setMoney]}>
-                <RingContext.Provider value='golden ring'>
+                <RingContext.Provider value="💍">
                     <section className='flex'>
                         <Father></Father>
                         <Uncle></Uncle>
